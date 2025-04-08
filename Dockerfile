@@ -1,4 +1,4 @@
 FROM nginx:alpine
 WORKDIR /app
-COPY . .
-EXPOSE 3131
+COPY index.html /usr/share/nginx/html/index.html
+EXPOSE 80
